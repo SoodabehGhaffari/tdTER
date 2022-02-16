@@ -1,0 +1,71 @@
+Basic Experiment Information
+User:                         sug82
+Type:                         IPRO
+Name:                         y
+File Format:                  PDB
+Force Field:                  CHARMM
+Folder:                       /storage/work/s/sug82/NewIPRO_Suite/IPRO/experiments/y/
+
+How to run IPRO
+IPRO Iterations:              3000
+IPRO Annealing Temperature:   3640.000
+Annealing Sharing:            yes
+Energy Calculation:           Interaction
+
+How to use CHARMM
+CHARMM Topology File:         c8c10c12enoylmodified.rtf
+CHARMM Topology File:         expanded_topology_enoyl_nai.rtf
+CHARMM Parameter File:        c8c10c12enoyl.par
+CHARMM Parameter File:        expanded_parameter.prm
+CHARMM Energy Term:           angl
+CHARMM Energy Term:           bond
+CHARMM Energy Term:           dihe
+CHARMM Energy Term:           elec
+CHARMM Energy Term:           impr
+CHARMM Energy Term:           urey
+CHARMM Energy Term:           vdw
+CHARMM Iterations:            10000
+Lj Phi:                       0.005
+
+How to use Implicit Solvation
+Use Solvation:                yes
+Solvation Type:               Lazaridis-Karplus
+LK Solvation File:            enoylsolvation.dat
+
+How to use rotamers
+Rotamer Library:              /gpfs/group/cdm8/default/rotlib/
+Rotamer Window:               40.000
+Max Rotamer Number:           1300
+Packing Cutoff:               4.500
+Packing Method:               Distance
+Packing Selection:            RESTRAINED
+
+How to do Structure Refinements
+Do Refinement:                No
+Refinement Iterations:        2
+Ensemble Number:              1
+
+How to run Docking
+Docking Frequency:            3
+Docking Iterations:           500
+Docking SD Movements:         0.200
+Docking SD Rotations:         2.000
+Docking Start Temp:           3640.000
+Docking End Temp:             2190.000
+
+The Molecules used in the experiment
+Molecule:                     Molecule A from file final_enzyme_enoyl_c8.pdb is Design Molecule D
+Molecule:                     Molecule X from file c8enoyl.pdb is Target Molecule X
+Molecule:                     Molecule T from file c10enoyl.pdb is Target Molecule T
+
+The Design Groups
+Design Group:                 Improve binding to Molecules: X
+Design Group:                 Eliminate binding to Molecules: T
+
+Residues that are Permitted to Mutate
+Design Position:              Residue 231 in Molecule D
+Design Position:              Residue 236 in Molecule D
+Design Position:              Residue 275 in Molecule D
+Design Position:              Residue 276 in Molecule D
+Design Position:              Residue 287 in Molecule D
+Design Position:              Residue 291 in Molecule D
